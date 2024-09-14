@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "2ad5651f-8406-40f2-b3e0-a5dd85712d9c",
+		"name": "Mock_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18920765",
+		"_collection_link": "https://apitestaristo.postman.co/workspace/New-Team-Workspace~ee413732-645f-4805-90ea-6fd1c7f4e7ca/collection/18920765-2ad5651f-8406-40f2-b3e0-a5dd85712d9c?action=share&source=collection_link&creator=18920765"
+	},
+	"item": [
+		{
+			"name": "Create_Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Lemon Tea\",\n    \"price\" : \"100 RS\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/teas",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_All_Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/teas",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Specific_Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/teas/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update_Data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Masala tea\",\n    \"price\" : \"100 RS\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/teas/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_Data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/teas/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
