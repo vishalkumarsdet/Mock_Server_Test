@@ -1,9 +1,9 @@
 ## Mock Server
 This is test mocke server for testing.
 ## Tech used:
-1. Xpress used to build this mock.
-2. Postman plugin used for testing.
-3. Visual Studio Code used for code and postman plugin.
+1. Xpress (@expressjs) used to build this mock. Read more about the Xpress here: https://expressjs.com
+2. Postman (@postmanlabs) plugin used for testing. Read more about the postman and you can download postman from here: https://www.postman.com
+3. Visual Studio Code (https://code.visualstudio.com/) used for code and postman plugin. Read and download vscode postman plugin here: https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode
 
 ## Purpose: 
 How to use Postman inside the Visual Studio Code to do faster testing while developing your apis.
